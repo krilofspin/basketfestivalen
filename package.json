@@ -1,0 +1,23 @@
+{
+  "name": "basketfestivalen",
+  "version": "1.0.0",
+  "description": "wordpress theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "author": "joakim isaksson",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.7.2",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
