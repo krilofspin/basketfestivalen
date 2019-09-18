@@ -1,0 +1,13 @@
+@import './helper.scss';
+
+body {
+  padding: rem-calc(16);
+}
+
+.section {
+  margin-bottom: rem-calc(16);
+  height: calc(100vh - 16px);
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

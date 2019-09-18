@@ -1,3 +1,3 @@
-<div id="about">
+<div id="about" class="section">
     About
 </div>

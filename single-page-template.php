@@ -1,9 +1,9 @@
-<?php /* Template Name: Start Page*/ ?>
+<?php /* Template Name: Basketfestivalen Single Page */ ?>
 
 <?php get_header(); ?>
  <?php if ( have_posts() ) : while ( have_posts() ) : the_post();       
 
-$components = ['top_menu','hero', 'about'];
+$components = ['top_menu'];
 
 foreach ($components as $component) {
   get_template_part( 'src/components/' . $component);
@@ -14,4 +14,5 @@ foreach ($components as $component) {
  
   <? endwhile; endif;?>
  
-  <?php get_footer(); ?>
+
+ <?php  get_footer(); ?>
