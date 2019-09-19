@@ -1,4 +1,13 @@
 #about {
-  background-color: pink;
-  height: 100vh;
+  background-color: white;
+  margin-bottom: 0;
+  border: rem-calc(4) solid black;
+  padding: rem-calc(32);
+
+  .container {
+    .columns {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
 }

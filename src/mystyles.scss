@@ -2,6 +2,7 @@
 
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css?family=Abel|Oswald:400,700');
 
 // Set your brand colors
 $purple: #8a4d76;
@@ -34,12 +35,15 @@ $input-shadow: none;
 @import '../node_modules/bulma/sass/form/_all.sass';
 @import '../node_modules/bulma/sass/components/navbar.sass';
 @import '../node_modules/bulma/sass/layout/hero.sass';
-@import '../node_modules/bulma/sass/layout/section.sass';
+@import '../node_modules/bulma/sass/grid/_all.sass';
 
 //Style for Components
 @import './scss/helper.scss';
 @import './scss/general.scss';
 @import './scss/hero.scss';
 @import './scss/about.scss';
+@import './scss/news.scss';
+@import './scss/buttons.scss';
 @import './scss/top-header.scss';
 @import './scss/breakpoints.scss';
+@import './scss/typography.scss';

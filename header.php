@@ -12,8 +12,8 @@
   <meta property="og:image:secure_url" content="https://www.safeitup.se/wp-content/themes/safeitup/img/SafeITUp.svg"/>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/dist/css/main.bundle.css">
   <title><?= the_title(); ?> - <?= get_bloginfo(); ?></title>
-
+  <?php wp_head() ?>
   <!-- END! -->
 </head>
 
-<body id="safeitup" class="<?php if(is_404()) echo 'not-found' ?>">
+<body id="basketfestivalen" class="<?php if(is_404()) echo 'not-found' ?>">

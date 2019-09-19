@@ -1,21 +1,53 @@
 @import './breakpoints.scss';
+@import './helper.scss';
+
+.wrapper {
+  width: calc(100% - 32px);
+  background: black;
+
+  display: flex;
+  align-items: center;
+  position: absolute;
+  padding-right: rem-calc(16);
+  padding-left: rem-calc(16);
+}
+
+.logo {
+  color: white;
+  img {
+    width: rem-calc(120);
+  }
+  span {
+    display: none;
+  }
+}
 
 .top-header {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  font-size: rem-calc(20);
+
+  a {
+    color: white;
+  }
   .menu {
     display: none;
     &.show {
       display: flex;
       width: 100%;
       position: absolute;
-      height: 100%;
+      height: 100vh;
       flex-direction: column;
       background: white;
       align-items: center;
+      z-index: 1000;
+      left: rem-calc(16);
 
       a {
         padding: 32px 0;
+        color: black;
       }
     }
     @include md {
@@ -32,6 +64,7 @@
 
 #toggle-menu-button {
   display: block;
+  z-index: 2000;
   @include md {
     display: none;
   }

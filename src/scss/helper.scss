@@ -1,4 +1,13 @@
+@import './breakpoints.scss';
+
 @function rem-calc($size) {
   $remSize: $size / 16;
   @return #{$remSize}rem;
+}
+
+.align-center {
+  @include md {
+    display: flex;
+    align-items: center;
+  }
 }

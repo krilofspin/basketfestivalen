@@ -1,5 +1,10 @@
 <?php
 
+
+
+
+
+
 add_theme_support( 'post-thumbnails' );
 add_theme_support( 'custom-logo' );
 add_filter('upload_mimes', 'cc_mime_types');
@@ -28,7 +33,7 @@ function load_more_posts() {
     $max_pages = ceil(wp_count_posts()->publish / $posts_per_page);
   
    // register our main script but do not enqueue it yet
-   wp_register_script( 'load_more', get_stylesheet_directory_uri() . '/js/myloadmore.js', array('jquery') );
+   wp_register_script( 'load_more', get_stylesheet_directory_uri() . '/dist/js/myloadmore.js', array('jquery') );
   
    // now the most interesting part
    // we have to pass parameters to myloadmore.js script but we can get the parameters values only in PHP
@@ -65,7 +70,7 @@ function load_more_posts() {
      while( have_posts() ): the_post();
        
         ?>
-         <div class="column news-box small-12 medium-12 large-4">
+         <div class="column news-box">
          <?php if(str_word_count( strip_tags( get_the_excerpt() ) ) > 50 ) : ?> 
           <a href="<?  the_permalink(); ?>">
             <div class="news-content link-card"> 
@@ -102,8 +107,6 @@ function load_more_posts() {
  // Make sure featured images are enabled
 add_theme_support( 'post-thumbnails' );
 
-add_theme_support( 'title-tag' );
-
 // Add featured image sizes
 add_image_size( 'featured-large', 640, 294, true ); // width, height, crop
 add_image_size( 'featured-small', 320, 147, true );
@@ -122,4 +125,3 @@ function wpshout_custom_sizes( $sizes ) {
         'medium-something' => __( 'Medium Something' ),
     ) );
 }
-
