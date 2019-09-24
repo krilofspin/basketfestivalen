@@ -3,10 +3,11 @@
 
 #news {
   background-color: white;
-  margin: 0 20px;
+  margin: 0 rem-calc(20);
   border: rem-calc(4) solid black;
+  padding: rem-calc(20) 0 rem-calc(60) 0;
   @include md {
-    margin: 20px 0px 0px 0px;
+    margin: rem-calc(20) 0 0 0;
   }
   h2 {
   }

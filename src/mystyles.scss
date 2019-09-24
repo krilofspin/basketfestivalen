@@ -35,6 +35,7 @@ $input-shadow: none;
 @import '../node_modules/bulma/sass/form/_all.sass';
 @import '../node_modules/bulma/sass/components/navbar.sass';
 @import '../node_modules/bulma/sass/layout/hero.sass';
+@import '../node_modules/bulma/sass/layout/_all.sass';
 @import '../node_modules/bulma/sass/grid/_all.sass';
 
 //Style for Components
@@ -46,4 +47,7 @@ $input-shadow: none;
 @import './scss/buttons.scss';
 @import './scss/top-header.scss';
 @import './scss/breakpoints.scss';
+@import './scss/social-media.scss';
+@import './scss/partners.scss';
 @import './scss/typography.scss';
+@import './scss/footer.scss';

@@ -8,7 +8,7 @@
 <?php get_header(); ?>
  <?php if ( have_posts() ) : while ( have_posts() ) : the_post();       
 
-$components = ['top_menu','hero', 'about', 'news'];
+$components = ['top_menu','hero', 'about', 'news', 'partners','social_media'];
 
 foreach ($components as $component) {
   get_template_part( 'src/components/' . $component);

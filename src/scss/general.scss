@@ -17,3 +17,9 @@ body {
   padding-top: 0;
   padding-bottom: 0;
 }
+
+.columns {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
