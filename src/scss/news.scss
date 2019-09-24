@@ -3,23 +3,29 @@
 
 #news {
   background-color: white;
-  margin: 0 rem-calc(20);
   border: rem-calc(4) solid black;
   padding: rem-calc(20) 0 rem-calc(60) 0;
-  @include md {
-    margin: rem-calc(20) 0 0 0;
-  }
+  margin: rem-calc(20) 0 0 0;
+
   h2 {
+    padding-bottom: rem-calc(32);
   }
 }
 .news-container {
-  min-height: 160px;
+  min-height: rem-calc(160);
   position: relative;
+
+  .news-box {
+    &.column {
+      padding: 0 rem-calc(8);
+    }
+  }
 
   .news-content {
     box-shadow: 1px 1px 4px gray;
-    padding: 2em;
+    padding: rem-calc(24);
     transition: all 0.3s ease 0s;
+    margin-bottom: rem-calc(24);
 
     a {
       font-weight: bold;
@@ -35,15 +41,13 @@
         color: red;
       }
     }
-    @include md {
-      margin-bottom: 2em;
-    }
   }
   h3 {
     display: inline-block;
     color: brown;
     font-size: 1.8em;
     display: block;
+    margin-top: 0;
   }
   hr {
     display: inline-block;
@@ -58,32 +62,34 @@
   }
 }
 .news-pagination {
-  font-size: 3em;
-  color: red;
+  font-size: rem-calc(30);
+  color: black;
 
   #prev,
   #next {
     cursor: pointer;
     position: absolute;
   }
-  #prev {
-    left: -20px;
-    top: 50%;
-    transform: translateY(-80%);
-    @include md {
-      top: auto;
-      bottom: rem-calc(70);
-      left: -4%;
+  #prev,
+  #next {
+    top: auto;
+    bottom: rem-calc(-60);
+    transform: translateY(-50%);
+    @include lg {
+      top: 50%;
+      transform: translateY(-50%);
     }
   }
   #next {
-    right: -20px;
-    top: 50%;
-    transform: translateY(-80%);
-    @include md {
-      top: auto;
-      bottom: rem-calc(70);
-      right: -4%;
+    right: 20%;
+    @include lg {
+      right: rem-calc(-50);
+    }
+  }
+  #prev {
+    left: 20%;
+    @include lg {
+      left: rem-calc(-50);
     }
   }
 }

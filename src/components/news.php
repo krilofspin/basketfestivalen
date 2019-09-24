@@ -2,10 +2,10 @@
     <div class="container">
         <div class="column">
         <h2>Nyheter</h2>
-            <div class="columns  news-container">
+            <div class="columns is-desktop  news-container">
                 <div class="news-pagination">
-                    <ion-icon name="arrow-round-back" id="prev"></ion-icon>
-                    <ion-icon name="arrow-round-forward" id="next"></ion-icon>
+                    <ion-icon name="ios-arrow-back" id="prev"></ion-icon>
+                    <ion-icon name="ios-arrow-forward" id="next"></ion-icon>
                 
                 </div>
                 <div id="loading">
