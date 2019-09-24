@@ -3,7 +3,7 @@
 
 #news {
   background-color: white;
-  border: rem-calc(4) solid black;
+  // border: rem-calc(4) solid black;
   padding: rem-calc(20) 0 rem-calc(60) 0;
   margin: rem-calc(20) 0 0 0;
 
@@ -22,43 +22,46 @@
   }
 
   .news-content {
-    box-shadow: 1px 1px 4px gray;
+    box-shadow: 1px 1px 8px #cfcfcf;
     padding: rem-calc(24);
     transition: all 0.3s ease 0s;
     margin-bottom: rem-calc(24);
 
     a {
       font-weight: bold;
-      color: brown;
+      color: lighten(black, 10%);
     }
   }
   .link-card {
     &:hover {
       filter: brightness(110%);
-      box-shadow: 0px 10px 20px rgba(143, 86, 67, 0.2);
+      box-shadow: 0px 10px 20px #cfcfcf;
       transform: translateY(-4px);
       a {
-        color: red;
+        &.read-more {
+          color: black;
+          text-decoration: underline;
+        }
       }
     }
   }
   h3 {
     display: inline-block;
-    color: brown;
+    color: black;
     font-size: 1.8em;
     display: block;
     margin-top: 0;
   }
   hr {
     display: inline-block;
-    border: 4px solid red;
+    border: 4px solid gold;
     width: 2em;
     margin: auto;
   }
   p {
     text-align: left;
     font-weight: normal;
-    color: brown;
+    color: black;
   }
 }
 .news-pagination {

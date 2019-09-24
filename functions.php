@@ -70,7 +70,7 @@ function load_more_posts() {
      while( have_posts() ): the_post();
        
         ?>
-         <div class="column news-box">
+         <div class="column news-box is-4-desktop">
          <?php if(str_word_count( strip_tags( get_the_excerpt() ) ) > 50 ) : ?> 
           <a href="<?  the_permalink(); ?>">
             <div class="news-content link-card"> 

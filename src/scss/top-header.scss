@@ -2,7 +2,7 @@
 @import './helper.scss';
 
 .wrapper {
-  width: calc(100% - 32px);
+  width: 100%;
   background: black;
 
   display: flex;
@@ -36,14 +36,15 @@
     display: none;
     &.show {
       display: flex;
-      width: 100%;
+      width: calc(100% + #{rem-calc(32)});
       position: absolute;
       height: 100vh;
       flex-direction: column;
       background: white;
       align-items: center;
       z-index: 1000;
-      left: rem-calc(16);
+      left: rem-calc(-16);
+      top: 0;
 
       a {
         padding: 32px 0;
