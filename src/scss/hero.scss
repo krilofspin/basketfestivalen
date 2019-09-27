@@ -4,6 +4,8 @@
 #hero {
   background: transparent;
   height: calc(100vh - 16px);
+  margin-left: rem-calc(-16);
+  margin-right: rem-calc(-16);
   // border: rem-calc(4) solid black;
 
   .background-image {

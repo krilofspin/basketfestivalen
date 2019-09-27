@@ -9,19 +9,20 @@
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
 
-<div id="footer">
-    <div class="container">
-        <div><?php echo get_bloginfo('name') ?> </div>
-        <div class="social-media-box">
-            <ion-icon name="logo-twitter"></ion-icon>
-            <ion-icon name="logo-facebook"></ion-icon>
-            <ion-icon name="logo-instagram"></ion-icon>
-            <ion-icon name="logo-youtube"></ion-icon>
+    <div id="footer">
+        <div class="container">
+            <div><?php echo get_bloginfo('name') ?> </div>
+            <div class="social-media-box">
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-youtube"></ion-icon>
+            </div>
         </div>
     </div>
-</div>
 
-
+    <!-- Ending of the class main-wrapper (starting in header.php)-->
+</div> 
 <?php wp_footer(); ?>
  </body>
 </html>

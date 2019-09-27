@@ -4,7 +4,7 @@
     $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
   
 
-    echo "<div class='wrapper'>";
+    echo "<div id='top-menu' class='wrapper'>";
         echo "<div class='container'>";
             echo "<div class='top-header'>";
             echo "<div class='logo'><img src='" . $image[0] ." '></img><span>" . get_bloginfo() . "</span></div>";
@@ -24,5 +24,6 @@
             echo "</div>";
         echo "</div>";
     echo "</div>";
+    
  
 ?>

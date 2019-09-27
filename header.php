@@ -17,3 +17,4 @@
 </head>
 
 <body id="basketfestivalen" class="<?php if(is_404()) echo 'not-found' ?>">
+<div class="main-wrapper">

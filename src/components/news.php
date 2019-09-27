@@ -1,6 +1,6 @@
 <div id="news">
-    <div class="container">
-        <div class="column">
+    <div class="container section">
+
         <h2>Nyheter</h2>
             <div class="columns is-desktop  news-container">
                 <div class="news-pagination">
@@ -16,5 +16,5 @@
             </div>   
         </div>
 
-    </div>
+  
 </div>

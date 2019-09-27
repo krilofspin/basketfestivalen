@@ -1,8 +1,16 @@
 #about {
   background-color: white;
   margin-bottom: 0;
+  img {
+    margin-bottom: rem-calc(16);
+  }
+  @include md {
+    img {
+      margin-bottom: 0;
+    }
+    padding: rem-calc(32);
+  }
   // border: rem-calc(4) solid black;
-  padding: rem-calc(32);
 
   .container {
     .columns {
