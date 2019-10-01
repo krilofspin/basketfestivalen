@@ -2,14 +2,18 @@
 @import './helper.scss';
 
 .wrapper {
-  width: 100%;
-  background: black;
-
-  display: flex;
   align-items: center;
-  position: absolute;
+  background: black;
+  display: flex;
   padding-right: rem-calc(16);
   padding-left: rem-calc(16);
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.has-admin-bar .wrapper {
+    top: 35px;  // Place below the admin bar
 }
 
 .logo {

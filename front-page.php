@@ -1,22 +1,12 @@
-<?php /* Template Name: Start Page*/ ?>
+<?php /* Template Name: Start Page */ ?>
+<?php 
+get_header(); 
 
-
-
-
-
-
-<?php get_header(); ?>
- <?php if ( have_posts() ) : while ( have_posts() ) : the_post();       
-
-$components = ['top_menu','hero', 'about', 'news', 'partners','social_media'];
+$components = ["top_menu", "hero", "main_content", "about", "news", "social_media"];
 
 foreach ($components as $component) {
-  get_template_part( 'src/components/' . $component);
+    get_template_part( "src/components/" . $component);
 }
-
 ?>
 
- 
-  <? endwhile; endif;?>
- 
-  <?php get_footer(); ?>
+<?php get_footer();?>

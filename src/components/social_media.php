@@ -1,12 +1,8 @@
-<div id="social-media" class="section"> 
-    <div class="container">
-        <h2>Instagram</h2>
-
-        <div class="social-media-grid">
-        <?php 
-            the_content();
-        ?>
-        </div>
-
+<?php
+$social_media = get_field("social_media");
+?>
+<div class="container">
+    <div class="social-media">
+        <?=$social_media;?>
     </div>
 </div>

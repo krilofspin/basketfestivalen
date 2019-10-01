@@ -4,10 +4,10 @@
   "description": "wordpress theme",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production --display-error-details --progress",
+    "watch": "webpack --mode development --display-error-details -w --progress --watch-poll"
   },
-  "author": "joakim isaksson",
+  "author": "Joakim Isaksson, Kristian Löfvenholm",
   "license": "ISC",
   "devDependencies": {
     "bulma": "^0.7.2",

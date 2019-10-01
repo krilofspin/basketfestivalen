@@ -1,18 +1,26 @@
-<?php /* Template Name: Basketfestivalen Single Page */ ?>
+<?php /* Template Name: Single Page */ ?>
+<?php 
+// Global variables
+global $post;
 
-<?php get_header(); ?>
- <?php if ( have_posts() ) : while ( have_posts() ) : the_post();       
+get_header();  
 
 $components = ['top_menu'];
 
 foreach ($components as $component) {
   get_template_part( 'src/components/' . $component);
 }
-
 ?>
-
- 
-  <? endwhile; endif;?>
- 
-
- <?php  get_footer(); ?>
+<div class="single-page-wrapper">
+    <main>
+        <div class="container">
+            <div class="section">
+                <article>
+                    <h1><?=$post->post_title;?></h1>
+                    <? the_content(); ?>
+                </article>
+            </div>
+        </div>
+    </main>
+</div>
+<? get_footer(); ?>
