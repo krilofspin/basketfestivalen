@@ -1,14 +1,8 @@
 <?php
 
-
-
-
-
-
 add_theme_support( 'post-thumbnails' );
 add_theme_support( 'custom-logo' );
 add_filter('upload_mimes', 'cc_mime_types');
-
 
 function cc_mime_types($mimes) {
   $mimes['svg'] = 'image/svg+xml';

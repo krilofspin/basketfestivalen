@@ -24,3 +24,20 @@ body {
     margin-bottom: 0;
   }
 }
+
+article {
+    font-size: 1.2rem;
+}
+
+.single-page-wrapper {
+    margin-top: 85px;  // Add space for absolutely positioned menu
+}
+
+// Add space if fixed admin menu is visible
+.has-admin-bar .single-page-wrapper {
+    margin-top: calc(35px + 85px); // admin bar + top menu
+}
+
+main {
+    padding-top: 3rem;
+}
