@@ -7,7 +7,9 @@ $image = wp_get_attachment_image_src( $custom_logo_id , "full" );
     <div class="container">
         <div class="top-header">
             <div class="logo">
-                <img src="<?=$image[0];?>">
+                <a href="<?=get_bloginfo("url");?>" title="<?=get_bloginfo();?>">
+                    <img src="<?=$image[0];?>">
+                </a>
                 <span><?=get_bloginfo();?></span>
             </div>
         
