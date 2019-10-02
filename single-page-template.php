@@ -18,6 +18,8 @@ foreach ($components as $component) {
                 <article>
                     <h1><?=$post->post_title;?></h1>
                     <? the_content(); ?>
+                    <hr/>
+                    <p><small>Uppdaterades senast <em><?=date("Y-m-d", strtotime($post->post_modified));?></em></small></p>
                 </article>
             </div>
         </div>
