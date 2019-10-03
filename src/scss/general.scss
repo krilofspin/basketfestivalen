@@ -5,6 +5,10 @@ body {
   background: white url("/wp-content/uploads/2019/10/skyline.png") no-repeat bottom center;
 }
 
+a {
+    font-weight: bold;
+}
+
 .main-wrapper {
     background: rgba(255,255,255,0.9);
 }
@@ -32,15 +36,6 @@ body {
 
 article {
     font-size: 1.2rem;
-}
-
-.single-page-wrapper {
-    margin-top: 85px;  // Add space for absolutely positioned menu
-}
-
-// Add space if fixed admin menu is visible
-.has-admin-bar .single-page-wrapper {
-    margin-top: calc(35px + 85px); // admin bar + top menu
 }
 
 main {

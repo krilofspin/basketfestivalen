@@ -11,15 +11,17 @@
   <div id="custom-bg" style="background-image: url('<?php echo $image[0]; ?>')"></div>
 <?php endif; ?>
 
-<div id="hero" class="section">
-    <div class="background-image" style="background-image: url('<?php echo $image[0]; ?>')">
-        <div class="container">
-            <div class="content-box">
-                <h1><?php echo $hero_text; ?></h1>
-                <p><?php echo $hero_subtext; ?></p>
+<?php if (!empty($hero_text)) {?>
+    <div id="hero" class="section">
+        <div class="background-image" style="background-image: url('<?php echo $image[0]; ?>')">
+            <div class="container">
+                <div class="content-box">
+                    <h1><?php echo $hero_text; ?></h1>
+                    <p><?php echo $hero_subtext; ?></p>
 
-                <a class="btn" href="<?php echo $action_url; ?>"><?php echo $action_text; ?></a>
+                    <a class="btn" href="<?php echo $action_url; ?>"><?php echo $action_text; ?></a>
+                </div>
             </div>
         </div>
     </div>
-</div>
+<? } ?>

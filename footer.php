@@ -44,14 +44,19 @@
 
         <div class="container">
             <div>
-                Logga in | Cookies | Privacy policy | Powered by Cup Manager and SuperInvite | Göteborg Basketball Festival | Ängåsvallen 20 421 47 , Västra Frölunda
+                <a href="https://basketballfestival.se/2019,sv,admin/start">Logga in</a> | 
+                <a href="/cookies">Cookies</a> | 
+                <a href="/integritetspolicy">Privacy policy</a> | 
+                Powered by <a href="http://www.cupmanager.net/">Cup Manager</a> and <a href="http://superinvite.no/">SuperInvite</a> | 
+                Göteborg Basketball Festival | 
+                Ängåsvallen 20 421 47 , Västra Frölunda
             </div>
 
             <div class="social-media-box">
-                <ion-icon name="logo-twitter"></ion-icon>
-                <ion-icon name="logo-facebook"></ion-icon>
-                <ion-icon name="logo-instagram"></ion-icon>
-                <ion-icon name="logo-youtube"></ion-icon>
+                <a href="https://twitter.com/gbgfestival2019" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="https://www.facebook.com/basketballfestival/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.instagram.com/explore/tags/gbgbasketballfestival2019/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.youtube.com/channel/UCs00L3AZ9JUAtv80uNqUbEA" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
             </div>
         </div>
         

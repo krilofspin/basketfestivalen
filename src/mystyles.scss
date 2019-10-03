@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Oswald:400,700');
 
 // Set your brand colors
+$brand-primary: rgb(89,192,209);
 $purple: #8a4d76;
 $pink: #fa7c91;
 $brown: #757763;
@@ -16,7 +17,7 @@ $family-sans-serif: 'Nunito', sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
 $primary: $purple;
-$link: $pink;
+$link: $brand-primary;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 

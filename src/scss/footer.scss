@@ -24,9 +24,14 @@
             display: flex;
             justify-content: flex-end;
 
-            ion-icon {
-            padding-right: 16px;
-            font-size: 30px;
+            a {
+                color: black;
+                padding-right: 16px;
+                font-size: 30px;
+            }
+
+            a:hover, a:focus {
+                color: $brand-primary;
             }
         }
     }
