@@ -1,7 +1,12 @@
 @import './helper.scss';
+@import '/wp-content/uploads/maxmegamenu/style_sv.css';
 
 body {
-  background-color: white;
+  background: white url("/wp-content/uploads/2019/10/skyline.png") no-repeat bottom center;
+}
+
+.main-wrapper {
+    background: rgba(255,255,255,0.9);
 }
 
 .section {

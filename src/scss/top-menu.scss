@@ -3,7 +3,7 @@
 
 .wrapper {
   align-items: center;
-  background: black;
+  background: rgb(89, 192, 209);
   display: flex;
   padding-right: rem-calc(16);
   padding-left: rem-calc(16);
@@ -17,13 +17,18 @@
 }
 
 .logo {
-  color: white;
-  img {
-    width: rem-calc(120);
-  }
-  span {
-    display: none;
-  }
+    background-color: white;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    margin: .5rem 0;
+
+    img {
+        width: rem-calc(120);
+    }
+
+    span {
+        display: none;
+    }
 }
 
 .top-header {

@@ -1,30 +1,33 @@
 @import './helper.scss';
 
 #footer {
-  margin-top: rem-calc(120);
-  border-top: 2px solid #ececec;
+    background-color: rgba(255,255,255,0.8);
+    margin-top: rem-calc(120);
+    border-top: 2px solid #ececec;
 
-  .container {
-    display: flex;
-    justify-content: space-between;
-    padding: rem-calc(40) 0;
-    align-items: center;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: rem-calc(40) 0;
+        align-items: center;
 
-    .partners {
-        img {
-            height: 64px;
-            margin-right: 2rem;
+        .partners {
+            text-align: center;
+
+            img {
+                height: 64px;
+                margin-right: 2rem;
+            }
+        }
+
+        .social-media-box {
+            display: flex;
+            justify-content: flex-end;
+
+            ion-icon {
+            padding-right: 16px;
+            font-size: 30px;
+            }
         }
     }
-
-    .social-media-box {
-      display: flex;
-      justify-content: flex-end;
-
-      ion-icon {
-        padding-right: 16px;
-        font-size: 30px;
-      }
-    }
-  }
 }

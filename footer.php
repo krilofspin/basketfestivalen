@@ -37,6 +37,7 @@
                 <img src="/wp-content/uploads/2019/09/scandic_logo.jpg" alt="">
                 <img src="/wp-content/uploads/2019/09/2win-basket-butik-logo.png" alt="">
                 <img src="/wp-content/uploads/2019/09/liseberg-logotyp.jpg" alt="">
+                <img src="/wp-content/uploads/2019/10/spinit_logo_700.png" alt="">
                 <img src="/wp-content/uploads/2019/09/rjlshb6qdpx1zb03ibg8.jpg" alt="">
             </div>
         </div>
