@@ -4,6 +4,8 @@
     background-color: rgba(255,255,255,0.8);
     margin-top: rem-calc(120);
     border-top: 2px solid #ececec;
+    padding-right: 1rem;
+    padding-left: 1rem;
 
     .container {
         display: flex;
@@ -17,6 +19,7 @@
             img {
                 height: 64px;
                 margin-right: 2rem;
+                margin-bottom: 3rem;
             }
         }
 
