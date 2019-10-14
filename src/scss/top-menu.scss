@@ -103,9 +103,13 @@
                 background: white;
             }
 
-            #mega-menu-my-custom-menu a.mega-menu-link {
-                color: #363636;
-                font-size: 1.2rem;
+            #mega-menu-my-custom-menu {
+                margin: 0;
+
+                a.mega-menu-link {
+                    color: #363636;
+                    font-size: 1.2rem;
+                }
             }
         }
 
