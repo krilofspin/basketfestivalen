@@ -76,3 +76,50 @@
     display: none;
   }
 }
+
+@media screen and (max-width: $screen-md-min) {
+    .mega-menu-my-custom-menu-mobile-open {
+        .logo {
+            display: none;
+        }
+    }
+
+    #top-menu {
+        #mega-menu-wrap-my-custom-menu {
+            .mega-menu-toggle {
+                background: white;
+                color: #222;
+                font-size: 1.2em;
+                padding: 0 1em;
+
+                .mega-toggle-block-1 .mega-toggle-label,
+                .mega-toggle-block-1:after {
+                    color: #222;
+                    font-size: 1.2em;
+                }
+            }
+
+            .mega-menu-toggle + #mega-menu-my-custom-menu {
+                background: white;
+            }
+
+            #mega-menu-my-custom-menu a.mega-menu-link {
+                color: #363636;
+                font-size: 1.2rem;
+            }
+        }
+
+        // Bugfix to show hidden menu links
+        #mega-menu-wrap-my-custom-menu, #mega-menu-wrap-my-custom-menu #mega-menu-my-custom-menu, #mega-menu-wrap-my-custom-menu #mega-menu-my-custom-menu ul.mega-sub-menu, #mega-menu-wrap-my-custom-menu #mega-menu-my-custom-menu li.mega-menu-item, #mega-menu-wrap-my-custom-menu #mega-menu-my-custom-menu li.mega-menu-row, #mega-menu-wrap-my-custom-menu #mega-menu-my-custom-menu li.mega-menu-column, #mega-menu-wrap-my-custom-menu #mega-menu-my-custom-menu a.mega-menu-link {
+            position: static!important;
+        }
+
+        // Selected menu item
+        #mega-menu-wrap-my-custom-menu #mega-menu-my-custom-menu > li.mega-menu-item.mega-toggle-on > a.mega-menu-link,
+        #mega-menu-wrap-my-custom-menu #mega-menu-my-custom-menu > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link, #mega-menu-wrap-my-custom-menu #mega-menu-my-custom-menu > li.mega-menu-item.mega-current-menu-ancestor > a.mega-menu-link, #mega-menu-wrap-my-custom-menu #mega-menu-my-custom-menu > li.mega-menu-item.mega-current-page-ancestor > a.mega-menu-link {
+            background: #EEE;
+            color: #363636;
+        }
+    }
+
+}
