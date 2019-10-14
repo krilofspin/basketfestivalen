@@ -1,19 +1,20 @@
 @import './helper.scss';
 
 #footer {
-    background-color: rgba(255,255,255,0.8);
     margin-top: rem-calc(120);
     border-top: 2px solid #ececec;
     padding-right: 1rem;
     padding-left: 1rem;
 
     .container {
+        align-items: center;
         display: flex;
         justify-content: space-between;
         padding: rem-calc(40) 0;
-        align-items: center;
 
         .partners {
+            background-color: rgba(255,255,255,0.4);
+            margin-bottom: 14rem;
             text-align: center;
 
             img {
@@ -21,6 +22,15 @@
                 margin-right: 2rem;
                 margin-bottom: 3rem;
             }
+        }
+
+        .footer-nav {
+            align-items: center;
+            background-color: rgba(255,255,255,0.4);
+            display: flex;
+            flex: 1;
+            justify-content: space-between;
+            padding: .5rem 2rem;
         }
 
         .social-media-box {
