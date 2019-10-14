@@ -24,8 +24,22 @@
     max-width: rem-calc(600);
     width: 50%;
 
+    h1 {
+        text-shadow: 1px 1px 1px #000;
+    }
+
     p {
         font-size: 1.2em;
     }
   }
+}
+
+@media screen and (max-width: 767px) {
+    #hero {
+        .content-box {
+            margin-left: auto;
+            margin-right: auto;
+            width: 95%;
+        }
+    }
 }
