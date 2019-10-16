@@ -45,7 +45,7 @@
         <div class="container">
             <nav class="footer-nav">
                 <div class="links-powered-by">
-                    <a href="https://basketballfestival.se/admin">Logga in</a> | 
+                    <a href="https://cup.basketballfestival.se/admin">Logga in - Cup Manager</a> | 
                     <a href="/cookies">Cookies</a> | 
                     <a href="/integritetspolicy">Privacy policy</a> | 
                     Powered by <a href="http://www.cupmanager.net/">Cup Manager</a> and <a href="http://superinvite.no/">SuperInvite</a> | 
