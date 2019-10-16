@@ -1,9 +1,19 @@
 // Plugin "Countdown Widget"
 // Url: https://metinsaylan.com/wordpress/plugins/countdown/
+@import './breakpoints.scss';
+@import './helper.scss';
 
 .shailan_CountdownWidget {
     background-color: white;
     color: $brand-primary;
     font-family: Oswald, sans-serif;
     font-size: 3em;
+}
+
+@media screen and (max-width: $screen-md-min) {
+    .shailan_CountdownWidget {
+        .countdown_section {
+            font-size: 4vw; // make font responsive depending on the viewport width
+        }
+    }
 }
