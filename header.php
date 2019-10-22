@@ -16,6 +16,7 @@ if (is_admin_bar_showing()) {
   <meta property="og:title" content="Basketfestivalen" />
   <meta property="og:description" content="" />
   <meta property="og:image:secure_url" content="https://basketballfestival.se/wp-content/themes/basketfestivalen/screenshot.png" />
+  <meta name="apple-itunes-app" content="app-id=971248822"/>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/dist/css/main.bundle.css">
   <link rel="icon" href="https://basketballfestival.se/wp-content/uploads/sport_basketball_favicon.png"/>
   <title><?= the_title(); ?> - <?= get_bloginfo(); ?></title>
